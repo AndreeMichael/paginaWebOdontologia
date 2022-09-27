@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url("https://prepagasyobrassociales.com.ar/wp-content/uploads/2019/12/especialidades-medicas.jpg");
+}
+h1{
+	color:white;
+	font-size: 50px;
+}
+
+h2{
+	color:red;
+	font-size: 40px;
+}
+h3{
+		color:black;
+	font-size: 40px;
+}
+h4{
+		color:black;
+	font-size: 30px;
+}
+h5{
+	color:black;
+	font-size: 15px;
+}
+
+section{
+	width: 120%;
+	padding: 10px;
+	display: flex;
+	flex-direction:  row;
+	justify-content:space-around;
+}
+
+section figure{
+	width: 20%;
+	margin-top: 10px;
+	margin-bottom:10px;
+	border:solid white;
+		color:black;
+}
+img{
+	transition: all 0.5s linear;
+	cursor: pointer;
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+
+
+section figure img{
+	width: 85%;
+	margin-top: 25px;
+margin-bottom:10px;
+margin-right: 50px;
+margin-left: 35px;	
+display: block;	
+}
+figcaption{
+	font-size: 30px;
+}
